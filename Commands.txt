@@ -1,0 +1,25 @@
+step 1 :-  git config --user.name "your name"
+
+step 2 :-  git config --user.email "your_email@domain.com"
+
+step 3 :-  touch .gitignore
+	    This command will create a empty file with name ".gitignore" this file will contain the folder
+	    or files your do not want to push to your gihub repositories
+		for example :- if you do not want to push a folder than directly write the name of the folder and
+		place a forward slash after the name. 
+			example/     and save it.
+step 4 :-  git init
+		this will create a hidden folder named ".git"
+
+step 5 :-  git commit -m "Initial commit"
+
+step 6 :-  git status 
+
+step 7 :-  git remote add origin git@github.com:Tushar7017/Flipkart-Clone.git
+
+step 8 :-  ssh-keygen -t rsa -b 4096 -C "Tusharyadav889@gmail.com"
+
+
+step 9 :-  cat  /c/Users/Tusha/.ssh/id_rsa.pub
+
+step 10 :-  git push origin master
